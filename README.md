@@ -1,2 +1,2 @@
-# goit-markup-hw-08
-Home work #8 [HTML+CSS #30: Online]
+# goit-markup-hw-07
+Home work #7 [HTML+CSS #30: Online]
