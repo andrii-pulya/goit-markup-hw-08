@@ -1,48 +1,50 @@
 /* ===== HERO ===== */
-.hero {
-  padding-top: 200px;
-  padding-bottom: 200px;
 
+.hero {
   display: flex;
   flex-grow: 1;
+  padding-top: 118px;
+  padding-bottom: 118px;
+
   background: var(--dark-back-color);
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../images/hero.jpg);
+    url(../images/main/hero/jpeg/hero-mobile.jpg);
+
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center top;
+  background-size: 480px 400px;
 
   .container {
-    flex-direction: column;
-  }
+  flex-direction: column;
 
   &-title {
-    margin-bottom: 30px;
-    margin-right: 237px;
-    margin-left: 237px;
+  margin-bottom: 30px;
+  margin-right: 60px;
+  margin-left: 60px;
 
-    color: #ffffff;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.364;
-    letter-spacing: 0.06em;
-    text-align: center;
-    text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 1.615;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
   }
 
   &-button {
+    display: block;
+    min-height: 50px;
+    min-width: 200px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 32px;
     padding-left: 32px;
-
-    display: block;
-    min-height: 50px;
-    min-width: 200px;
-    cursor: pointer;
     margin: 0 auto;
+
+    cursor: pointer;
     align-items: center;
     justify-content: center;
 
@@ -56,5 +58,24 @@
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.06em;
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 767px),
+  screen and (min-resolution: 192dpi) and (min-width: 320px) and (max-width: 767px),
+  screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/main/hero/jpeg/hero-mobile@2x.jpg);
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
   }
 }
