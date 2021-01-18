@@ -73,9 +73,33 @@
   }
 }
 
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 1599px),
+  screen and (min-resolution: 192dpi) and (min-width: 768px) and (max-width: 1599px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px) and (max-width: 1599px) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/main/hero/jpeg/hero-tablet@2x.jpg);
+  }
+}
+
 @media screen and (min-width: 1600px) {
   .hero {
     padding-top: 200px;
     padding-bottom: 200px;
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1600px),
+  screen and (min-resolution: 192dpi) and (min-width: 1600px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/main/hero/jpeg/hero-desktop@2x.jpg);
   }
 }
