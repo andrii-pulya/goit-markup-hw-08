@@ -71,9 +71,9 @@ img {
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .container {
-    max-width: 1600px;
+    max-width: 1200px;
     padding: 0 215px;
   }
 }
@@ -298,10 +298,10 @@ a.is-current {
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/main/hero/jpeg/hero-desktop.jpg");
-    background-size: 1600px 600px;
+    background-size: 1200px 600px;
   }
   .hero-title {
     font-size: 44px;
@@ -309,10 +309,10 @@ a.is-current {
   }
 }
 
-@media screen and (min-device-pixel-ratio: 2) and (min-width: 320px), screen and (min-resolution: 192dpi) and (min-width: 320px), screen and (min-resolution: 2dppx) and (min-width: 320px) {
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px), screen and (min-resolution: 192dpi) and (min-width: 1200px), screen and (min-resolution: 2dppx) and (min-width: 1200px) {
   .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/main/hero/jpeg/hero-desktop@2x.jpg");
-    background-size: 1600px 600px;
+    background-size: 1200px 600px;
   }
 }
 
