@@ -5,6 +5,7 @@
   --primary-back-color: #ffffff;
   --secondary-back-color: #f5f4fa;
   --dark-back-color: #2f303a;
+  --card-set-gap: 30px;
 }
 
 .visually-hidden {
@@ -75,9 +76,21 @@ img {
   }
 }
 
-.section {
-  padding-top: 130px;
-  padding-bottom: 130px;
+section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+@media screen and (min-width: 1200px) {
+  section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
+.section-title {
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 body {
@@ -310,6 +323,110 @@ a.is-current {
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2) and (min-width: 1200px), screen and (min-width: 1200px) and (min-resolution: 192dpi) and (min-width: 1200px), screen and (min-width: 1200px) and (min-resolution: 2dppx) and (min-width: 1200px) {
   .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/main/hero/jpeg/hero-desktop@2x.jpg");
+  }
+}
+
+/* ===== Advantages =====*/
+.advantages-icon {
+  display: flex;
+  max-width: 100%;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: var(--card-set-gap);
+}
+
+.advantages-item {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.142;
+  text-transform: uppercase;
+}
+
+.advantages-details {
+  margin-bottom: var(--card-set-gap);
+  font-size: 14px;
+  line-height: 1.714;
+}
+
+@media screen and (min-width: 768px) {
+  .advantages-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: -15px;
+    margin-top: -var(--card-set-gap);
+  }
+  .advantages-description {
+    flex-basis: calc(100% / 2 - 15px);
+    margin-left: 15px;
+    margin-top: var(--card-set-gap);
+  }
+  .advantages-item {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .advantages-list {
+    flex-wrap: nowrap;
+  }
+  .advantages-description:not(:last-child) {
+    margin-right: var(--card-set-gap);
+  }
+  .advantages-description {
+    width: 270px;
+  }
+}
+
+/* ===== What we are doing ===== */
+.activity {
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .activity {
+    display: block;
+  }
+  .activity-main {
+    width: 1170px;
+    height: 386px;
+  }
+  .activity-list {
+    display: flex;
+  }
+  .activity-item {
+    position: relative;
+    width: 370px;
+    height: 294px;
+  }
+  .activity-item:not(:last-child) {
+    margin-right: 30px;
+  }
+  .activity-item-description {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ffffff;
+    justify-content: center;
+    background-color: rgba(47, 48, 58, 0.8);
+  }
+  .section-title {
+    margin-bottom: 50px;
+    text-align: center;
   }
 }
 /*# sourceMappingURL=main.css.map */
