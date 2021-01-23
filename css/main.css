@@ -768,11 +768,12 @@ a.is-current {
 }
 
 .footer-subscription-button {
-  display: inline-block;
+  position: relative;
+  display: block;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 29px;
-  margin: 0 auto;
+  margin: auto;
   min-height: 50px;
   min-width: 200px;
   cursor: pointer;
