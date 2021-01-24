@@ -29,7 +29,9 @@
   }
 
   &-address {
+    margin: 0 auto;
     margin-bottom: 60px;
+    width: 232px;
 
     font-size: 14px;
     line-height: 1.714;
@@ -105,11 +107,12 @@
     }
 
     &-email {
-      display: inline-block;
+      display: block;
       width: 100%;
       height: 50px;
       padding-left: 16px;
       padding-right: 16px;
+      margin: 0 auto;
       margin-bottom: 20px;
 
       color: #ffffff;
@@ -162,9 +165,102 @@
       width: 24px;
       height: 24px;
     }
+  }
+}
 
-    &-wrapper-mobile {
-      position: relative;
+@media screen and (min-width: 768px) {
+  .footer {
+    &-main-contacts {
+      display: flex;
+      margin-bottom: 60px;
+      justify-content: space-between;
+    }
+
+    &-left-part {
+      display: flex;
+      flex-direction: column;
+      margin-left: 76px;
+    }
+
+    &-right-part {
+      margin-right: 89px;
+    }
+
+    &-address {
+      margin-bottom: 0px;
+    }
+
+    &-social-title {
+      margin-top: 5px;
+    }
+
+    &-subscription {
+      display: block;
+
+      &-email {
+        margin: 0 auto;
+        margin-bottom: 20px;
+        width: 450px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer {
+    &-main {
+      display: flex;
+
+      &-contacts {
+        margin-bottom: 0;
+      }
+    }
+
+    &-left-part {
+      display: flex;
+      flex-direction: column;
+      margin-left: 0px;
+      margin-right: 70px;
+    }
+
+    &-right-part {
+      margin-right: 93px;
+    }
+
+    & .logo {
+      text-align: left;
+    }
+
+    &-address {
+      margin: 0 auto;
+      margin-bottom: 0px;
+      width: 231px;
+    }
+
+    .address-city,
+    &-contacts {
+      text-align: left;
+    }
+
+    &-social-title {
+      text-align: left;
+    }
+
+    &-subscription {
+      display: block;
+
+      &-title {
+        text-align: left;
+      }
+
+      &-email {
+        margin: 0 12px 0 0;
+        width: 358px;
+      }
+
+      &-wrapper {
+        display: flex;
+      }
     }
   }
 }
