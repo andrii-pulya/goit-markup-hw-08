@@ -130,81 +130,8 @@ h2 {
 }
 
 /* ===== Header ===== */
-.header .container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.header .logo {
-  margin-right: 92px;
-  padding-top: 24px;
-  padding-bottom: 25px;
-}
-
-.border-header {
-  border-bottom: 1px solid #ececec;
-}
-
-.navigation {
-  display: flex;
-  align-items: center;
-}
-
-.list.address {
-  display: flex;
-}
-
-.navigation-page,
-.header-contacts {
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
-.navigation-item:not(:last-child),
-.address-item:not(:last-child) {
-  margin-right: 50px;
-}
-
-a.is-current {
-  display: block;
-  position: relative;
-  color: var(--accent-color);
-}
-
-.is-current::after {
-  content: "";
-  display: block;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 4px;
-  background-color: var(--accent-color);
-  border-radius: 2px;
-}
-
-.navigation-page {
-  color: var(--title-text-color);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.143;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.navigation-page:hover, .navigation-page:focus {
-  color: var(--accent-color);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.header-address,
-.footer-address {
-  font-style: normal;
-}
-
 .logo {
+  display: block;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -220,36 +147,9 @@ a.is-current {
   color: #000000;
 }
 
-.header-contacts {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: var(--primary-text-color);
-  font-size: 14px;
-  line-height: 1.188;
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-}
-
-.header-contacts:hover, .header-contacts:focus {
-  color: var(--accent-color);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.header-contacts:visited {
-  color: var(--primary-text-color);
-}
-
-.contacts-icon {
-  fill: var(--primary-text-color);
-  margin-right: 10px;
-}
-
-.header-contacts:hover .contacts-icon,
-.header-contacts:focus .contacts-icon {
-  fill: var(--accent-color);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.header .logo {
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 /* ===== HERO ===== */
@@ -665,7 +565,6 @@ a.is-current {
 }
 
 .footer .logo {
-  display: block;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -691,6 +590,7 @@ a.is-current {
   text-align: center;
   text-decoration: none;
   color: #ffffff;
+  font-style: normal;
 }
 
 .footer .address-city:visited {
@@ -702,6 +602,7 @@ a.is-current {
   text-align: center;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+  font-style: normal;
 }
 
 .footer-social-title {
@@ -876,4 +777,6 @@ a.is-current {
     display: flex;
   }
 }
+
+/*========== PORTFOLIO ========== */
 /*# sourceMappingURL=main.css.map */
