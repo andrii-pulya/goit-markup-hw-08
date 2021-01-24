@@ -13,9 +13,9 @@
     </head>
     
     <body>
-        <header class="header border-header">
+        <!-- <header class="header border-header"> -->
             <!-- Head of the page with navigation and contacts -->
-            <div class="container">
+            <!-- <div class="container">
                 <nav class="navigation">
                     <a class="logo" href="index.html" lang="en"><span class="logo-first-part">Web</span><span
                             class="logo-second-part-header">Studio</span></a>
@@ -51,8 +51,8 @@
                         </li>
                     </ul>
                 </address>
-            </div>
-        </header>
+            </div> -->
+        <!-- </header> -->
         <main>
             <section class="portfolio">
                 <div>
@@ -69,10 +69,10 @@
                                 <button class="portfolio-button" type="button">Приложения</button>
                             </li>
                             <li class="portfolio-filter">
-                                <button class="portfolio-button" type="button">Дизайн</button>
+                                <button class="portfolio-button-bottom" type="button">Дизайн</button>
                             </li>
                             <li class="portfolio-filter">
-                                <button class="portfolio-button" type="button">Маркетинг</button>
+                                <button class="portfolio-button-bottom" type="button">Маркетинг</button>
                             </li>
                         </ul>
                     </div>
@@ -81,7 +81,24 @@
                             <li class="projects-item">
                                 <a class="projects-link" href="#">
                                     <div class="project-item-picture">
-                                        <img src="./images/portfolio/web-site-1.jpg" alt="Веб-сайт 1">
+                                        <picture>
+                                            <source srcset="./images/portfolio/webp/web-site-1-desktop.webp 1x, ./images/portfolio/webp/web-site-1-desktop@2x.webp.webp 2x"
+                                                media="(min-width: 1200px)" type="image/webp">
+                                            <source srcset="./images/portfolio/webp/web-site-1-tablet.webp 1x, ./images/portfolio/webp/web-site-1-tablet@2x.webp 2x"
+                                                media="(min-width: 768px)" type="image/webp">
+                                            <source srcset="./images/portfolio/webp/web-site-1-mobile.webp 1x, ./images/portfolio/webp/web-site-1-mobile@2x.webp 2x"
+                                                media="(min-width: 320px)" type="image/webp">
+                                        
+                                            <source
+                                                srcset="./images/portfolio/jpeg/web-site-1-desktop.jpg 1x, ./images/portfolio/jpeg/web-site-1-desktop@2x.jpg 2x"
+                                                media="(min-width: 1200px)" type="image/webp">
+                                            <source srcset="./images/portfolio/jpeg/web-site-1-tablet.jpg 1x, ./images/portfolio/jpeg/web-site-1-tablet@2x.jpg 2x"
+                                                media="(min-width: 768px)" type="image/webp">
+                                            <source srcset="./images/portfolio/jpeg/web-site-1-mobile.jpg 1x, ./images/portfolio/jpeg/web-site-1-mobile@2x.jpg 2x"
+                                                media="(min-width: 320px)" type="image/webp">
+                                        
+                                            <img src="./images/portfolio/jpeg/web-site-1-mobile.jpg" alt="Веб-сайт 1">
+                                        </picture>
                                         <div class="project-item-description">
                                             <p>
                                                 Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
@@ -98,7 +115,29 @@
                             <li class="projects-item">
                                 <a class="projects-link" href="#">
                                     <div class="project-item-picture">
-                                        <img src="./images/portfolio/design-1.jpg" alt="Дизайн 1" width="370" height="294">
+                                        <picture>
+                                            <source
+                                                srcset="./images/portfolio/webp/design-1-desktop.webp 1x, ./images/portfolio/webp/design-1-desktop@2x.webp.webp 2x"
+                                                media="(min-width: 1200px)" type="image/webp">
+                                            <source
+                                                srcset="./images/portfolio/webp/design-1-tablet.webp 1x, ./images/portfolio/webp/design-1-tablet@2x.webp 2x"
+                                                media="(min-width: 768px)" type="image/webp">
+                                            <source
+                                                srcset="./images/portfolio/webp/design-1-mobile.webp 1x, ./images/portfolio/webp/design-1-mobile@2x.webp 2x"
+                                                media="(min-width: 320px)" type="image/webp">
+                                        
+                                            <source
+                                                srcset="./images/portfolio/jpeg/design-1-desktop.jpg 1x, ./images/portfolio/jpeg/design-1-desktop@2x.jpg 2x"
+                                                media="(min-width: 1200px)" type="image/webp">
+                                            <source
+                                                srcset="./images/portfolio/jpeg/design-1-tablet.jpg 1x, ./images/portfolio/jpeg/design-1-tablet@2x.jpg 2x"
+                                                media="(min-width: 768px)" type="image/webp">
+                                            <source
+                                                srcset="./images/portfolio/jpeg/design-1-mobile.jpg 1x, ./images/portfolio/jpeg/design-1-mobile@2x.jpg 2x"
+                                                media="(min-width: 320px)" type="image/webp">
+                                        
+                                            <img src="./images/portfolio/jpeg/design-1-mobile.jpg" alt="Дизайн 1">
+                                        </picture>
                                         <div class="project-item-description">
                                             <p>
                                                 Иииии... Описание ПРОЕКТА! )))
@@ -114,7 +153,24 @@
                             <li class="projects-item">
                                 <a class="projects-link" href="#">
                                     <div class="project-item-picture">
-                                        <img src="./images/portfolio/application-1.jpg" alt="Приложение 1" width="370" height="294">
+                                        <picture>
+                                            <source
+                                                srcset="./images/portfolio/webp/application-1-desktop.webp 1x, ./images/portfolio/webp/application-1-desktop@2x.webp.webp 2x"
+                                                media="(min-width: 1200px)" type="image/webp">
+                                            <source srcset="./images/portfolio/webp/application-1-tablet.webp 1x, ./images/portfolio/webp/application-1-tablet@2x.webp 2x"
+                                                media="(min-width: 768px)" type="image/webp">
+                                            <source srcset="./images/portfolio/webp/application-1-mobile.webp 1x, ./images/portfolio/webp/application-1-mobile@2x.webp 2x"
+                                                media="(min-width: 320px)" type="image/webp">
+                                        
+                                            <source srcset="./images/portfolio/jpeg/application-1-desktop.jpg 1x, ./images/portfolio/jpeg/application-1-desktop@2x.jpg 2x"
+                                                media="(min-width: 1200px)" type="image/webp">
+                                            <source srcset="./images/portfolio/jpeg/application-1-tablet.jpg 1x, ./images/portfolio/jpeg/application-1-tablet@2x.jpg 2x"
+                                                media="(min-width: 768px)" type="image/webp">
+                                            <source srcset="./images/portfolio/jpeg/application-1-mobile.jpg 1x, ./images/portfolio/jpeg/application-1-mobile@2x.jpg 2x"
+                                                media="(min-width: 320px)" type="image/webp">
+                                        
+                                            <img src="./images/portfolio/jpeg/application-1-mobile.jpg" alt="Приложение 1">
+                                        </picture>
                                         <div class="project-item-description">
                                             <p>
                                                 Иииии... Описание ПРОЕКТА! )))
@@ -130,7 +186,29 @@
                             <li class="projects-item">
                                 <a class="projects-link" href="#">
                                     <div class="project-item-picture">
-                                        <img src="./images/portfolio/marketing-1.jpg" alt="Маркетинг 1" width="370" height="294">
+                                        <picture>
+                                            <source
+                                                srcset="./images/portfolio/webp/marketing-1-desktop.webp 1x, ./images/portfolio/webp/marketing-1-desktop@2x.webp.webp 2x"
+                                                media="(min-width: 1200px)" type="image/webp">
+                                            <source
+                                                srcset="./images/portfolio/webp/marketing-1-tablet.webp 1x, ./images/portfolio/webp/marketing-1-tablet@2x.webp 2x"
+                                                media="(min-width: 768px)" type="image/webp">
+                                            <source
+                                                srcset="./images/portfolio/webp/marketing-1-mobile.webp 1x, ./images/portfolio/webp/marketing-1-mobile@2x.webp 2x"
+                                                media="(min-width: 320px)" type="image/webp">
+                                        
+                                            <source
+                                                srcset="./images/portfolio/jpeg/marketing-1-desktop.jpg 1x, ./images/portfolio/jpeg/marketing-1-desktop@2x.jpg 2x"
+                                                media="(min-width: 1200px)" type="image/webp">
+                                            <source
+                                                srcset="./images/portfolio/jpeg/marketing-1-tablet.jpg 1x, ./images/portfolio/jpeg/marketing-1-tablet@2x.jpg 2x"
+                                                media="(min-width: 768px)" type="image/webp">
+                                            <source
+                                                srcset="./images/portfolio/jpeg/marketing-1-mobile.jpg 1x, ./images/portfolio/jpeg/marketing-1-mobile@2x.jpg 2x"
+                                                media="(min-width: 320px)" type="image/webp">
+                                        
+                                            <img src="./images/portfolio/jpeg/marketing-1-mobile.jpg" alt="Маркетинг 1">
+                                        </picture>
                                         <div class="project-item-description">
                                             <p>
                                                 Иииии... Описание ПРОЕКТА! )))
@@ -146,7 +224,29 @@
                             <li class="projects-item">
                                 <a class="projects-link" href="#">
                                     <div class="project-item-picture">
-                                        <img src="./images/portfolio/application-2.jpg" alt="Приложение 2" width="370" height="294">
+                                        <picture>
+                                            <source
+                                                srcset="./images/portfolio/webp/application-2-desktop.webp 1x, ./images/portfolio/webp/application-2-desktop@2x.webp.webp 2x"
+                                                media="(min-width: 1200px)" type="image/webp">
+                                            <source
+                                                srcset="./images/portfolio/webp/application-2-tablet.webp 1x, ./images/portfolio/webp/application-2-tablet@2x.webp 2x"
+                                                media="(min-width: 768px)" type="image/webp">
+                                            <source
+                                                srcset="./images/portfolio/webp/application-2-mobile.webp 1x, ./images/portfolio/webp/application-2-mobile@2x.webp 2x"
+                                                media="(min-width: 320px)" type="image/webp">
+                                        
+                                            <source
+                                                srcset="./images/portfolio/jpeg/application-2-desktop.jpg 1x, ./images/portfolio/jpeg/application-2-desktop@2x.jpg 2x"
+                                                media="(min-width: 1200px)" type="image/webp">
+                                            <source
+                                                srcset="./images/portfolio/jpeg/application-2-tablet.jpg 1x, ./images/portfolio/jpeg/application-2-tablet@2x.jpg 2x"
+                                                media="(min-width: 768px)" type="image/webp">
+                                            <source
+                                                srcset="./images/portfolio/jpeg/application-2-mobile.jpg 1x, ./images/portfolio/jpeg/application-2-mobile@2x.jpg 2x"
+                                                media="(min-width: 320px)" type="image/webp">
+                                        
+                                            <img src="./images/portfolio/jpeg/application-2-mobile.jpg" alt="Приложение 2">
+                                        </picture>
                                         <div class="project-item-description">
                                             <p>
                                                 Иииии... Описание ПРОЕКТА! )))
@@ -162,7 +262,29 @@
                             <li class="projects-item">
                                 <a class="projects-link" href="#">
                                     <div class="project-item-picture">
-                                        <img src="./images/portfolio/web-site-2.jpg" alt="Веб-сайт 2" width="370" height="294">
+                                        <picture>
+                                            <source
+                                                srcset="./images/portfolio/webp/web-site-2-desktop.webp 1x, ./images/portfolio/webp/web-site-2-desktop@2x.webp.webp 2x"
+                                                media="(min-width: 1200px)" type="image/webp">
+                                            <source
+                                                srcset="./images/portfolio/webp/web-site-2-tablet.webp 1x, ./images/portfolio/webp/web-site-2-tablet@2x.webp 2x"
+                                                media="(min-width: 768px)" type="image/webp">
+                                            <source
+                                                srcset="./images/portfolio/webp/web-site-2-mobile.webp 1x, ./images/portfolio/webp/web-site-2-mobile@2x.webp 2x"
+                                                media="(min-width: 320px)" type="image/webp">
+                                        
+                                            <source
+                                                srcset="./images/portfolio/jpeg/web-site-2-desktop.jpg 1x, ./images/portfolio/jpeg/web-site-2-desktop@2x.jpg 2x"
+                                                media="(min-width: 1200px)" type="image/webp">
+                                            <source
+                                                srcset="./images/portfolio/jpeg/web-site-2-tablet.jpg 1x, ./images/portfolio/jpeg/web-site-2-tablet@2x.jpg 2x"
+                                                media="(min-width: 768px)" type="image/webp">
+                                            <source
+                                                srcset="./images/portfolio/jpeg/web-site-2-mobile.jpg 1x, ./images/portfolio/jpeg/web-site-2-mobile@2x.jpg 2x"
+                                                media="(min-width: 320px)" type="image/webp">
+                                        
+                                            <img src="./images/portfolio/jpeg/web-site-2-mobile.jpg" alt="Веб-сайт 2">
+                                        </picture>
                                         <div class="project-item-description">
                                             <p>
                                                 Иииии... Описание ПРОЕКТА! )))
@@ -178,7 +300,24 @@
                             <li class="projects-item">
                                 <a class="projects-link" href="#">
                                     <div class="project-item-picture">
-                                        <img src="./images/portfolio/design-2.jpg" alt="Дизайн 2" width="370" height="294">
+                                        <picture>
+                                            <source
+                                                srcset="./images/portfolio/webp/design-2-desktop.webp 1x, ./images/portfolio/webp/design-2-desktop@2x.webp.webp 2x"
+                                                media="(min-width: 1200px)" type="image/webp">
+                                            <source srcset="./images/portfolio/webp/design-2-tablet.webp 1x, ./images/portfolio/webp/design-2-tablet@2x.webp 2x"
+                                                media="(min-width: 768px)" type="image/webp">
+                                            <source srcset="./images/portfolio/webp/design-2-mobile.webp 1x, ./images/portfolio/webp/design-2-mobile@2x.webp 2x"
+                                                media="(min-width: 320px)" type="image/webp">
+                                        
+                                            <source srcset="./images/portfolio/jpeg/design-2-desktop.jpg 1x, ./images/portfolio/jpeg/design-2-desktop@2x.jpg 2x"
+                                                media="(min-width: 1200px)" type="image/webp">
+                                            <source srcset="./images/portfolio/jpeg/design-2-tablet.jpg 1x, ./images/portfolio/jpeg/design-2-tablet@2x.jpg 2x"
+                                                media="(min-width: 768px)" type="image/webp">
+                                            <source srcset="./images/portfolio/jpeg/design-2-mobile.jpg 1x, ./images/portfolio/jpeg/design-2-mobile@2x.jpg 2x"
+                                                media="(min-width: 320px)" type="image/webp">
+                                        
+                                            <img src="./images/portfolio/jpeg/design-2-mobile.jpg" alt="Дизайн 2">
+                                        </picture>
                                         <div class="project-item-description">
                                             <p>
                                                 Иииии... Описание ПРОЕКТА! )))
@@ -194,7 +333,29 @@
                             <li class="projects-item">
                                 <a class="projects-link" href="#">
                                     <div class="project-item-picture">
-                                        <img src="./images/portfolio/marketing-2.jpg" alt="Маркетинг 2" width="370" height="294">
+                                        <picture>
+                                            <source
+                                                srcset="./images/portfolio/webp/marketing-2-desktop.webp 1x, ./images/portfolio/webp/marketing-2-desktop@2x.webp.webp 2x"
+                                                media="(min-width: 1200px)" type="image/webp">
+                                            <source
+                                                srcset="./images/portfolio/webp/marketing-2-tablet.webp 1x, ./images/portfolio/webp/marketing-2-tablet@2x.webp 2x"
+                                                media="(min-width: 768px)" type="image/webp">
+                                            <source
+                                                srcset="./images/portfolio/webp/marketing-2-mobile.webp 1x, ./images/portfolio/webp/marketing-2-mobile@2x.webp 2x"
+                                                media="(min-width: 320px)" type="image/webp">
+                                        
+                                            <source
+                                                srcset="./images/portfolio/jpeg/marketing-2-desktop.jpg 1x, ./images/portfolio/jpeg/marketing-2-desktop@2x.jpg 2x"
+                                                media="(min-width: 1200px)" type="image/webp">
+                                            <source
+                                                srcset="./images/portfolio/jpeg/marketing-2-tablet.jpg 1x, ./images/portfolio/jpeg/marketing-2-tablet@2x.jpg 2x"
+                                                media="(min-width: 768px)" type="image/webp">
+                                            <source
+                                                srcset="./images/portfolio/jpeg/marketing-2-mobile.jpg 1x, ./images/portfolio/jpeg/marketing-2-mobile@2x.jpg 2x"
+                                                media="(min-width: 320px)" type="image/webp">
+                                        
+                                            <img src="./images/portfolio/jpeg/marketing-2-mobile.jpg" alt="Маркетинг 2">
+                                        </picture>
                                         <div class="project-item-description">
                                             <p>
                                                 Иииии... Описание ПРОЕКТА! )))
@@ -210,7 +371,29 @@
                             <li class="projects-item">
                                 <a class="projects-link" href="#">
                                     <div class="project-item-picture">
-                                        <img src="./images/portfolio/application-3.jpg" alt="Приложение 3" width="370" height="294">
+                                        <picture>
+                                            <source
+                                                srcset="./images/portfolio/webp/application-3-desktop.webp 1x, ./images/portfolio/webp/application-3-desktop@2x.webp.webp 2x"
+                                                media="(min-width: 1200px)" type="image/webp">
+                                            <source
+                                                srcset="./images/portfolio/webp/application-3-tablet.webp 1x, ./images/portfolio/webp/application-3-tablet@2x.webp 2x"
+                                                media="(min-width: 768px)" type="image/webp">
+                                            <source
+                                                srcset="./images/portfolio/webp/application-3-mobile.webp 1x, ./images/portfolio/webp/application-3-mobile@2x.webp 2x"
+                                                media="(min-width: 320px)" type="image/webp">
+                                        
+                                            <source
+                                                srcset="./images/portfolio/jpeg/application-3-desktop.jpg 1x, ./images/portfolio/jpeg/application-3-desktop@2x.jpg 2x"
+                                                media="(min-width: 1200px)" type="image/webp">
+                                            <source
+                                                srcset="./images/portfolio/jpeg/application-3-tablet.jpg 1x, ./images/portfolio/jpeg/application-3-tablet@2x.jpg 2x"
+                                                media="(min-width: 768px)" type="image/webp">
+                                            <source
+                                                srcset="./images/portfolio/jpeg/application-3-mobile.jpg 1x, ./images/portfolio/jpeg/application-3-mobile@2x.jpg 2x"
+                                                media="(min-width: 320px)" type="image/webp">
+                                        
+                                            <img src="./images/portfolio/jpeg/application-3-mobile.jpg" alt="Приложение 3">
+                                        </picture>
                                         <div class="project-item-description">
                                             <p>
                                                 Иииии... Описание ПРОЕКТА! )))
@@ -229,9 +412,9 @@
             </section>
         </main>
 
-        <footer class="footer dark-back">
+        <!-- <footer class="footer dark-back"> -->
             <!-- How to find us -->
-            <div class="footer-main container">
+            <!-- <div class="footer-main container">
                 <div class="footer-left-part">
                     <a class="logo" href="index.html" lang="en"><span class="logo-first-part">Web</span><span
                             class="logo-second-part-footer">Studio</span></a>
@@ -296,9 +479,9 @@
                     </form>
                 </div>
         
-            </div>
+            </div> -->
         
-        </footer>
+        <!-- </footer> -->
 
     </body>
 </html>
