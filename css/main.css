@@ -130,12 +130,13 @@ h2 {
 }
 
 /* ===== Header ===== */
-.header {
-  border-bottom: 1px solid #ececec;
-}
 
 .header .container {
   position: relative;
+}
+
+.header {
+  border-bottom: 1px solid #ececec;
 }
 
 .header .logo {
@@ -1178,7 +1179,7 @@ h2 {
   overflow: hidden;
 }
 
-.project-item-img {
+picture > img {
   width: 100%;
 }
 

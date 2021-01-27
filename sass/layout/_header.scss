@@ -1,9 +1,13 @@
 /* ===== Header ===== */
 .header {
-  border-bottom: 1px solid #ececec;
-
+  border-bottom: 1px solid #ECECEC;
+  
   .container {
     position: relative;
+  }
+
+  .border-header {
+    border-bottom: 1px solid #ececec;
   }
 
   .logo {
