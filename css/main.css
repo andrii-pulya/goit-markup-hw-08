@@ -1179,7 +1179,7 @@ h2 {
   overflow: hidden;
 }
 
-.project-item-picture > img {
+picture > img {
   width: 100%;
 }
 
