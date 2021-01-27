@@ -135,7 +135,7 @@ h2 {
   position: relative;
 }
 
-.header .border-header {
+.header {
   border-bottom: 1px solid #ececec;
 }
 
