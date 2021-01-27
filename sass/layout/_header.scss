@@ -87,10 +87,12 @@
 }
 
 .menu-button {
+  top: 10px;
+  right: 0px;
+
   display: inline-flex;
   margin: 0;
   padding: 0;
-  z-index: 100;
 
   border: none;
   background-color: transparent;
@@ -148,7 +150,8 @@
 }
 
 @media screen and (max-width: 767px) {
-  .contacts-icon {
+  .contacts-icon-email,
+  .contacts-icon-phone {
     display: none;
   }
 
@@ -185,6 +188,25 @@
       font-size: 18px;
       line-height: 1.222;
       letter-spacing: 0.02em;
+    }
+  }
+  .menu-close-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    display: inline-flex;
+    margin: 21 25 0 0;
+    padding: 0;
+
+    border: none;
+    background-color: transparent;
+
+    &:hover,
+    &:focus {
+      fill: var(--accent-color);
+
+      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
   }
 }
@@ -244,7 +266,8 @@
   }
 
   .menu {
-    &-button {
+    &-button,
+    &-close-button {
       display: none;
     }
 
