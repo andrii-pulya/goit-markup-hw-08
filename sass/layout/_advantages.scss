@@ -1,6 +1,10 @@
 /* ===== Advantages =====*/
 
 .advantages {
+  &-description {
+    margin-bottom: 30px;
+  }
+
   &-icon {
     display: flex;
     max-width: 100%;
@@ -54,7 +58,9 @@
     &-list {
       flex-wrap: nowrap;
     }
-
+    &-description {
+      margin-bottom: 0;
+    }
     &-description:not(:last-child) {
       margin-right: var(--card-set-gap);
     }

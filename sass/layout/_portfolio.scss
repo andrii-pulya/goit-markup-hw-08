@@ -5,7 +5,7 @@
     display: flex;
     flex-wrap: wrap;
     max-width: 362px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
 
   &-filter {
@@ -30,21 +30,21 @@
     padding-left: 22px;
 
     font-weight: 500;
-    font-size: 1.625;
+    font-size: 16px;
     line-height: 26px;
     color: var(--title-text-color);
     background: #f5f4fa;
     border-radius: 4px;
     border: 0;
 
-    transition: color background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     &:hover,
     &:focus {
       color: #ffffff;
       background: #2196f3;
 
-      transition: color background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
   }
 }
@@ -158,7 +158,7 @@
       display: flex;
       flex-wrap: nowrap;
       max-width: 100%;
-      margin-bottom: 40px;
+      margin-bottom: 30px;
       justify-content: center;
     }
 
@@ -172,9 +172,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    // margin-left: -30px;
-    // margin-top: -30px;
-    margin: -15px;
 
     &-item {
       // flex-basis: calc(100% / 2 - 30px);
@@ -187,8 +184,16 @@
 }
 
 @media screen and (min-width: 1200px) {
+  .portfolio {
+    &-list {
+      display: flex;
+      flex-wrap: nowrap;
+      max-width: 100%;
+      margin-bottom: 50px;
+    }
+  }
   .projects {
-    margin: -15px;
+    // margin: -15px;
 
     &-item {
       flex-basis: calc((100% - 6 * 15px) / 3);

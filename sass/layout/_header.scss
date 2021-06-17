@@ -1,7 +1,7 @@
 /* ===== Header ===== */
 .header {
-  border-bottom: 1px solid #ECECEC;
-  
+  border-bottom: 1px solid #ececec;
+
   .container {
     position: relative;
   }
@@ -17,6 +17,7 @@
 
   &-contacts {
     text-decoration: none;
+    font-style: normal;
   }
 
   &-menu-phone {
@@ -69,9 +70,14 @@
   }
 }
 
+.icon-menu {
+  width: 24px;
+  height: 16px;
+}
+
 .logo {
   display: inline-block;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.166;
@@ -109,18 +115,23 @@
   @media screen and (max-width: 487px) {
     margin-right: 15px;
   }
+}
 
-  .icon-close {
-    display: none;
-  }
+.icon-close {
+  display: none;
+}
 
-  &.is-open .icon-close {
-    display: block;
-  }
+.is-open .icon-close {
+  display: block;
+}
 
-  &.is-open .icon-menu {
-    display: none;
-  }
+.is-open .icon-menu {
+  display: none;
+}
+
+.menu-close-button {
+  margin-right: 15px;
+  margin-top: 21px;
 }
 
 .menu-container {
@@ -298,7 +309,7 @@
 
   .is-current {
     &::after {
-      content: "";
+      content: '';
       display: block;
       position: absolute;
       bottom: 0;

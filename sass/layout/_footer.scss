@@ -13,7 +13,8 @@
   padding-bottom: 60px;
 
   & .logo {
-    margin-bottom: 20px;
+    display: block;
+    margin: 0 auto 20px auto;
 
     text-align: center;
 
@@ -62,6 +63,7 @@
     text-align: center;
 
     font-size: 14px;
+    font-weight: bold;
     line-height: 1.1428;
     text-transform: uppercase;
     color: #ffffff;
@@ -102,6 +104,7 @@
       margin-bottom: 20px;
 
       font-size: 14px;
+      font-weight: bold;
       line-height: 1.1428;
       text-transform: uppercase;
       color: #ffffff;
